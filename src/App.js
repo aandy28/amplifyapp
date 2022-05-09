@@ -10,6 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello from V2</h1>
+        <p>test</p>
       </header>
 
       <Authenticator loginMechanisms={['username']} socialProviders={['amazon', 'apple', 'facebook', 'google']} >
